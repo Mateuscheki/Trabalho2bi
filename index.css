@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee; 
+}
+
+header {
+    background-color: #6d6d6d; 
+    padding: 1px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 05px 0;
+    padding: 05px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px #333;
+    background-color: linear-gradient(to right, #ff0000, #ffa500);
+  }
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+}
+
+#busca {
+    width: 400px; 
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+.menu-usuario {
+    display: flex;
+    align-items: center;
+}
+
+.icone-usuario,
+.icone-configuracao {
+    background-color: #6d6d6d; 
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icone-usuario img,
+.icone-configuracao img {
+    width: 40px;
+    height: auto;
+}
+
+.dropdown-usuario {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-usuario ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-usuario li {
+    padding: 10px;
+}
+
+.dropdown-usuario a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-usuario a:hover {
+    background-color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+}
+
+.noticias {
+    margin-bottom: 20px;
+}
+
+.noticias h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #6d6d6d; 
+    text-align: center;
+    padding: 10px
+}
+
+
+.noticias {
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+    
+      h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+      }
+    
+      p {
+        text-indent: 10px;
+        font-family: Arial, sans-serif;
+      }
+    
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+      }
+}
+#propaganda{
+    h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+}

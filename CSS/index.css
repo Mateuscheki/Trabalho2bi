@@ -2,13 +2,19 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eeeeee; 
+    background-color: #eeeeee;
 }
 
 header {
-    background-color: #6d6d6d; 
+    background-color: #6d6d6d;
     padding: 1px;
+
 }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 
 .container-header {
     display: flex;
@@ -25,19 +31,20 @@ header {
     border-radius: 5px;
     text-shadow: 1px 1px 2px #333;
     background-color: linear-gradient(to right, #ff0000, #ffa500);
-  }
-h1{
+}
+
+h1 {
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
 .logo {
-    width: 100px; 
+    width: 100px;
     height: auto;
 }
 
 #busca {
-    width: 400px; 
+    width: 400px;
     padding: 10px;
     border: 3px solid #000000;
     border-radius: 5px;
@@ -50,7 +57,7 @@ h1{
 
 .icone-usuario,
 .icone-configuracao {
-    background-color: #6d6d6d; 
+    background-color: #6d6d6d;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -68,7 +75,7 @@ h1{
     display: none;
     background-color: #fff;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -104,7 +111,7 @@ main {
 }
 
 footer {
-    background-color: #6d6d6d; 
+    background-color: #6d6d6d;
     text-align: center;
     padding: 10px
 }
@@ -115,28 +122,46 @@ footer {
         font-family: Arial, sans-serif;
         line-height: 1.6;
         margin: 20px;
-      }
-    
-      h1 {
-        text-align: center;
-        font-family: Arial, sans-serif;
+    }
 
-      }
-    
-      p {
-        text-indent: 10px;
-        font-family: Arial, sans-serif;
-      }
-    
-      img {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-      }
-}
-#propaganda{
     h1 {
         text-align: center;
         font-family: Arial, sans-serif;
+
     }
+
+    p {
+        font-family: 'Georgia', serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+        text-align: justify;
+        margin: 2% 10%;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+    }
+}
+
+.Propagandas {
+    h2{
+        text-align: center;
+    }
+
+    p {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 10%;
+    }
+
+
+
 }
